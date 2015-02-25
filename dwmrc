@@ -1,0 +1,6 @@
+~/.dwm/apod.py
+
+while true; do
+	xsetroot -name "$(~/.dwm/battery.py) | $(date +"%A %B %d %T")"
+	sleep 1
+done
